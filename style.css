@@ -1,7 +1,7 @@
 #topContainer {
     width: 100vw;
-    height: 25vh;
-    background: yellow;
+    height: auto;
+    background: orange;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,8 +10,8 @@
 
 #gameContainer {
     width: 100vw;
-    height: auto;
-    background: green;
+    height: 50vh;
+    background: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
