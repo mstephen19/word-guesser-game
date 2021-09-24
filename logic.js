@@ -19,6 +19,12 @@ const wordsArray = [
   "doggies",
   "rapper",
   "mandarin",
+  "flower",
+  "marijuana",
+  "marker",
+  "super",
+  "batman",
+  "printer"
 ];
 var mainWord;
 let wins = 0;
@@ -94,6 +100,7 @@ startButton.addEventListener("click", function () {
     var mainWordArray = mainWord.split("");
     var letter = event.key;
     if (mainWordArray.includes(letter)) {
+        secondsLeft = secondsLeft + 5;
       //getting index of key pressed
       var indexes = [];
       for (let i = 0; i < mainWordArray.length; i++) {
