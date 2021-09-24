@@ -1,0 +1,20 @@
+#topContainer {
+    width: 100vw;
+    height: auto;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameContainer {
+    width: 100vw;
+    height: 50vh;
+    background: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
